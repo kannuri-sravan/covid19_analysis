@@ -4,6 +4,8 @@
 ### Sravan Kumar Kannuri
 ### March 31,2020
 
+[Sravan Covid-19 MEDIUM-BLOG-URL](https://medium.com/@shravank/covid-19-impact-on-the-usa-b51213ad4ff7)
+
 
 ## I. Definition
 
