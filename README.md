@@ -1,15 +1,15 @@
 
 # COVID-19 Data Analysis
 
-###Sravan Kumar Kannuri
-###March 31,2020
+### Sravan Kumar Kannuri
+### March 31,2020
 
 
-##I. Definition
+## I. Definition
 
 This code helps in analysis current Corona situation in USA like reasons for Spread, Death Rates and Predicts Future Hotspots.
 
-###Project Overview
+### Project Overview
 Different parts of the United States are seeing different levels of impact from a couple of weeks. Here I am trying to draw some conclusions for a few scenarios based on the data available in the public domain.
 
 Following websites helped in research of current subject.
@@ -19,7 +19,7 @@ Following websites helped in research of current subject.
 [median_age](https://en.wikipedia.org/wiki/List_of_countries_by_median_age)
 
 
-###Problem Statement
+### Problem Statement
 
 Can we get answers for following question from data ?
 
@@ -28,8 +28,8 @@ Can we get answers for following question from data ?
 3. Which states are going to be next hotspots in the USA?
 
 
-##II. Analysis
-###Data Exploration
+## II. Analysis
+### Data Exploration
 
 I have Data downloaded from following websites.
 
@@ -37,7 +37,7 @@ worldometers provides an up to date cases count per country and state wise. So f
 
 [worldometers](https://www.worldometers.info/coronavirus/country/us/)
 
-#####Data Labels:
+##### Data Labels:
 
 ###### State - USA State name 
 ###### Total Cases - cumulative number of total cases so far
@@ -57,7 +57,7 @@ worldpopulationreview provides demographic attributes like total population and 
 ######  MedianAgeMale	- MedianAge of the Male in state
 ######  MedianAgeFemale - MedianAge of the Female in state
 
-###Exploratory Visualization
+### Exploratory Visualization
 
 Highest statewide cases chart
 
@@ -73,9 +73,9 @@ Histogram for corona cases with demographics
 
 
 
-##III. Methodology
+## III. Methodology
 
-###Data Preprocessing
+### Data Preprocessing
 There is abnormalities like of missing data in-between. In order to get the consistency, there are multiple methodologies.
 
 1. Remove NAN values
@@ -86,21 +86,21 @@ There is abnormalities like of missing data in-between. In order to get the cons
 
 4. Fill forward and Backward Fill
 
-###Implementation
-####Challenges :
+### Implementation
+#### Challenges :
 1. Collecting right sets of data and finding our correlation between them was complex part
 2. Drawing conclusions based on assumptions
 
 
-##IV. Results
+## IV. Results
 
 1. Population and MeanAge will be the main factors for corona spread and deaths
 
-##V. Conclusion
+## V. Conclusion
 
 Prevention is better than cure
 
-In current situations, the US government is concentrating on testing and treating patients. Parallelly they should work to stop the spreadings.
+In current situations, the US government is concentrating on testing and treating patients. Parallelly they should work to stop the spreadings. 
 
 Heatmap
 
