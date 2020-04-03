@@ -2,7 +2,7 @@
 # COVID-19 Data Analysis
 
 ### Sravan Kumar Kannuri
-### March 31,2020
+### April 02,2020
 
 [Sravan Covid-19 MEDIUM-BLOG-URL](https://medium.com/@shravank/covid-19-impact-on-the-usa-b51213ad4ff7)
 
