@@ -6,6 +6,12 @@
 
 [Sravan Covid-19 MEDIUM-BLOG-URL](https://medium.com/@shravank/covid-19-impact-on-the-usa-b51213ad4ff7)
 
+## Libraries use
+1. pandas
+2. numpy
+3. matplotlib
+4. sklearn
+
 
 ## I. Definition
 
@@ -19,6 +25,12 @@ Following websites helped in research of current subject.
 [cdv](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/index.html)
 
 [median_age](https://en.wikipedia.org/wiki/List_of_countries_by_median_age)
+
+## Files in the repository
+covid19_usa_hotspot_prediction.ipynb : Notebook file contaning the exploration and analysis of the work.
+covid19_usa.csv : The dataset file.
+population_state_usa.csv : The dataset file.
+readme.md : The readme file for write-up.
 
 
 ### Problem Statement
@@ -88,6 +100,34 @@ There is abnormalities like of missing data in-between. In order to get the cons
 
 4. Fill forward and Backward Fill
 
+### NAN data results 
+
+Total Cases         0
+
+New Cases           3
+
+Total Deaths        6
+
+New Deaths         18
+
+Active Cases        0
+
+Population          8
+
+MedianAge           8
+
+MedianAgeMale       8
+
+MedianAgeFemale     8
+
+Removing NAN data removes lot of usefull data Like data in Total Cases and Total Deaths columns
+
+I am taking here 0 filling approach, that way we can maitain consistency of the data to get better results without loosing them
+
+Dropping bottom 7 records beacause data belongs to are united states terries.
+
+
+
 ### Implementation
 #### Challenges :
 1. Collecting right sets of data and finding our correlation between them was complex part
@@ -115,6 +155,10 @@ Population
 MeanAge
 
 ![](images/meanage.png "populationbar")
+
+## Acknowledgements
+1. worldometers
+2. worldpopulationreview 
 
 
 
