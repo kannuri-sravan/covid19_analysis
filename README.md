@@ -81,9 +81,6 @@ Highest statewide Deathrate
 
 ![](images/Deathrate.png "Deathrate")
 
-Histogram for corona cases with demographics
-
-![](images/histgram.png "histogram")
 
 
 
